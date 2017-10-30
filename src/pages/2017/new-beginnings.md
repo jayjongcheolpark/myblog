@@ -5,5 +5,5 @@ path: "/begin-with-gatsby/"
 ---
 
 Finally, I created a blog with gatsby.js.
-The reason why I chose gatsby as static site generator is that I am into `React`, `GraphQL`.
+The reason why I chose gatsby as static site generator is that I am into React, GraphQL.
 Nowadays, I am very busy because there are so many resources I have to learn, but I will write an article to leave a history of my study.

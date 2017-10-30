@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import { Container } from 'react-responsive-grid'
+import styled from 'styled-components'
 
 import { rhythm, scale } from '../utils/typography'
 
-class Template extends React.Component {
+const H1 = styled.h1`
+  margin-bottom: ${rhythm(1.5)};
+  margin-top: 0;
+`
+
+const H3 = styled.h3`
+  margin-top: 0;
+  margin-bottom: ${rhythm(1)};
+`
+
+const Div = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+
+class Template extends Component {
   render() {
     const { location, children } = this.props
     let header
@@ -13,36 +29,36 @@ class Template extends React.Component {
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
       rootPath = __PATH_PREFIX__ + `/`
     }
-
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
+        <Div>
+          <H1>
+            <Link
+              style={{
+                boxShadow: 'none',
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+              to={'/'}
+            >
+              Jay's Blog
+            </Link>
+          </H1>
           <Link
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
               color: 'inherit',
             }}
-            to={'/'}
+            to={'/about'}
           >
-            Jay's Blog
+            About
           </Link>
-        </h1>
+        </Div>
       )
     } else {
       header = (
-        <h3
-          style={{
-            marginTop: 0,
-            marginBottom: rhythm(1),
-          }}
-        >
+        <H3>
           <Link
             style={{
               boxShadow: 'none',
@@ -53,7 +69,7 @@ class Template extends React.Component {
           >
             Jay's Blog
           </Link>
-        </h3>
+        </H3>
       )
     }
     return (

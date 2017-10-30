@@ -1,35 +1,37 @@
-import React from 'react'
-
-// Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import { navigateTo } from 'gatsby-link'
 
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
-class Bio extends React.Component {
+const Div = styled.div`
+  display: flex;
+  margin-bottom: ${rhythm(2.5)}
+`
+
+const Img = styled.img`
+  border-radius: 50%;
+  margin-right: ${rhythm(1 / 2)};
+  margin-bottom: 0;
+  width: ${rhythm(2)};
+  height: ${rhythm(2)};
+  cursor: pointer
+`
+
+class Bio extends Component {
   render() {
     return (
-      <div
-        style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
-        }}
-      >
-        <img
+      <Div>
+        <Img
           src={profilePic}
-          alt={`Kyle Mathews`}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-          }}
+          alt={`Jay Park`}
+          onClick={() => navigateTo('/about')}
         />
         <p>
-          Written by <strong>Jay Park</strong> who lives in Toronto building SPA and loves React, Redux, GraphQL, Redux-saga, and Node.
+          Written by <strong>Jay Park</strong> who lives in Toronto building SPA and loves React, Redux, GraphQL, Redux-Saga, and Node.
         </p>
-      </div>
+      </Div>
     )
   }
 }
