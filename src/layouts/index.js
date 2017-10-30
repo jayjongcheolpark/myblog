@@ -31,7 +31,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Jay's Blog
           </Link>
         </h1>
       )
@@ -39,9 +39,8 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
-            marginBottom: rhythm(-1),
+            marginBottom: rhythm(1),
           }}
         >
           <Link
@@ -52,7 +51,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            Jay's Blog
           </Link>
         </h3>
       )

@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "jaypark",
+  "description": "Blog about Javascript and Web Development",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jay Park <jay.jongcheol.park@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
@@ -28,7 +28,8 @@
     "react-responsive-grid": "^0.3.3",
     "typeface-merriweather": "^0.0.35",
     "typeface-montserrat": "^0.0.37",
-    "typography-theme-wordpress-2016": "^0.15.1"
+    "typography": "^0.16.6",
+    "typography-theme-noriega": "^0.15.10"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",

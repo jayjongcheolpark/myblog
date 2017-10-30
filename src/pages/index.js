@@ -26,7 +26,11 @@ class BlogIndex extends React.Component {
                   }}
                 >
                   <Link
-                    style={{ boxShadow: 'none' }}
+                    style={{
+                      textDecoration: 'none',
+                      boxShadow: 'none',
+                      color: 'palevioletred'
+                    }}
                     to={post.node.frontmatter.path}
                   >
                     {post.node.frontmatter.title}
