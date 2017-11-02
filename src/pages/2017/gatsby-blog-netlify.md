@@ -2,6 +2,7 @@
 title: How to make a blog for free with Gatsby and Netlify
 date: "2017-11-01T22:12:03.284Z"
 path: "/gatsby-blog-on-netlify/"
+image: "https://softwareengineeringdaily.com/wp-content/uploads/2017/08/GatsbyJS.png"
 ---
 
 ![Gatsby](https://softwareengineeringdaily.com/wp-content/uploads/2017/08/GatsbyJS.png)
