@@ -4,7 +4,9 @@ date: "2017-11-01T22:12:03.284Z"
 path: "/gatsby-blog-on-netlify/"
 ---
 
-You have many options to make a blog with SSG(Static Site Generator).
+![Gatsby](https://softwareengineeringdaily.com/wp-content/uploads/2017/08/GatsbyJS.png)
+
+You have many options to make a blog with SSG (Static Site Generator).
 
 |SSG|Language / Library|Site|
 |---|---|---|
