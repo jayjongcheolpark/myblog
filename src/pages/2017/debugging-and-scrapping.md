@@ -1,5 +1,5 @@
 ---
-title: JS Debugging Tips and Puppeteer
+title: JS Debugging Tips, Puppeteer, Web Dev Cheatsheet
 date: "2017-11-07T22:12:03.284Z"
 path: "/JS-Debugging-Tips-And-Puppeteer/"
 ---
@@ -8,3 +8,4 @@ path: "/JS-Debugging-Tips-And-Puppeteer/"
 
 [A Guide to Automating & Scraping the Web with JavaScript (Chrome + Puppeteer + Node JS)](https://codeburst.io/a-guide-to-automating-scraping-the-web-with-javascript-chrome-puppeteer-node-js-b18efb9e9921)
 
+[Rico’s Cheatsheet: Actual front-end dev cheatsheet](https://devhints.io/)
