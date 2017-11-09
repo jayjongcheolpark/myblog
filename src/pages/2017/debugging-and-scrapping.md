@@ -13,3 +13,5 @@ path: "/JS-Debugging-Tips-And-Puppeteer/"
 [I wish I knew these before diving into React](https://engineering.opsgenie.com/i-wish-i-knew-these-before-diving-into-react-301e0ee2e488)
 
 [Testing React components](https://nerdblog.pl/post/166842840969/testing-react-components)
+
+[React Lifecycle Methods- how and when to use them](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1)
