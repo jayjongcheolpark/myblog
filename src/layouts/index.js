@@ -5,6 +5,8 @@ import styled from 'styled-components'
 
 import { rhythm, scale } from '../utils/typography'
 
+require('prismjs/themes/prism-solarizedlight.css')
+
 const H1 = styled.h1`
   margin-bottom: ${rhythm(1.5)};
   margin-top: 0;
