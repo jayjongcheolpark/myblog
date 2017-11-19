@@ -15,3 +15,5 @@ path: "/Compilation-of-React-Patterns-and-Tips/"
 [Way of the Script — React + Redux + Typescript: Part 1 — Introduction](https://medium.com/@XValhallaCoderX/way-of-the-script-react-redux-typescript-part-1-introduction-68e6b74d7f33)
 
 [Way of the Script — React + Redux + Typescript: Part 2— Counter](https://medium.com/@XValhallaCoderX/way-of-the-script-react-redux-typescript-part-2-counter-7dee3aa43645)
+
+[Arrow Functions in Class Properties Might Not Be As Great As We Think](https://medium.com/@charpeni/arrow-functions-in-class-properties-might-not-be-as-great-as-we-think-3b3551c440b1)
