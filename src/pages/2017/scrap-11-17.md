@@ -5,6 +5,8 @@ path: "/Compilation-of-React-Patterns-and-Tips/"
 ---
 
 
+[Arrow Functions in Class Properties Might Not Be As Great As We Think](https://medium.com/@charpeni/arrow-functions-in-class-properties-might-not-be-as-great-as-we-think-3b3551c440b1): We have to avoid using arrow functions in class properties. Arrow function cannot be found by calling prototype as it is exist in constructor.
+And bind functions' performance is better than arrow functions.
 
 [React Bits: A Compilation of React Patterns and Tips](https://vasanthk.gitbooks.io/react-bits/)
 
@@ -16,4 +18,4 @@ path: "/Compilation-of-React-Patterns-and-Tips/"
 
 [Way of the Script — React + Redux + Typescript: Part 2— Counter](https://medium.com/@XValhallaCoderX/way-of-the-script-react-redux-typescript-part-2-counter-7dee3aa43645)
 
-[Arrow Functions in Class Properties Might Not Be As Great As We Think](https://medium.com/@charpeni/arrow-functions-in-class-properties-might-not-be-as-great-as-we-think-3b3551c440b1)
+
